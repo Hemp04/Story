@@ -1,0 +1,46 @@
+It was the best of times , it was the worst of times.
+hbpar@Hem MINGW64 /c/WDB
+$ cd /c/WDB/L217
+
+hbpar@Hem MINGW64 /c/WDB/L217
+$ ls
+
+hbpar@Hem MINGW64 /c/WDB/L217
+$ touch ch1.txt
+
+hbpar@Hem MINGW64 /c/WDB/L217
+$ open -a /c/WDB/L217/ch1.txt
+bash: open: command not found
+
+hbpar@Hem MINGW64 /c/WDB/L217
+$ ls
+ch1.txt
+
+hbpar@Hem MINGW64 /c/WDB/L217
+$ git init
+Initialized empty Git repository in C:/WDB/L217/.git/
+
+hbpar@Hem MINGW64 /c/WDB/L217 (master)
+$ ls
+ch1.txt
+
+hbpar@Hem MINGW64 /c/WDB/L217 (master)
+$ ls -a
+./  ../  .git/  ch1.txt
+
+hbpar@Hem MINGW64 /c/WDB/L217 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ch1.txt
+
+        aa je files niche chhe e red man aavshe e badhi haji commit nathi ke ena pr koi action nathi levayela
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+hbpar@Hem MINGW64 /c/WDB/L217 (master)
+$
